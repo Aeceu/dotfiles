@@ -1,0 +1,8 @@
+2025-06-08 13:44:40.521 [info] ComputeTargetPlatform: linux-x64
+2025-06-08 13:44:42.637 [info] ComputeTargetPlatform: linux-x64
+2025-06-08 13:47:49.763 [info] Getting Manifest... t3dotgg.vsc-material-theme-but-i-wont-sue-you
+2025-06-08 13:47:49.810 [info] Installing extension: t3dotgg.vsc-material-theme-but-i-wont-sue-you {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/kruger/.vscode/extensions/extensions.json","path":"/home/kruger/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.100.2","date":"2025-05-14T21:47:40.416Z"}}
+2025-06-08 13:47:52.571 [info] Extension signature verification result for t3dotgg.vsc-material-theme-but-i-wont-sue-you: Success. Internal Code: 0. Executed: true. Duration: 822ms.
+2025-06-08 13:47:52.648 [info] Extracted extension to file:///home/kruger/.vscode/extensions/t3dotgg.vsc-material-theme-but-i-wont-sue-you-35.0.3: t3dotgg.vsc-material-theme-but-i-wont-sue-you
+2025-06-08 13:47:52.656 [info] Renamed to /home/kruger/.vscode/extensions/t3dotgg.vsc-material-theme-but-i-wont-sue-you-35.0.3
+2025-06-08 13:47:52.685 [info] Extension installed successfully: t3dotgg.vsc-material-theme-but-i-wont-sue-you vscode-userdata:/home/kruger/.vscode/extensions/extensions.json

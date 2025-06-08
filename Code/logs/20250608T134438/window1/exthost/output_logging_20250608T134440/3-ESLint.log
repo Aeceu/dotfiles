@@ -1,0 +1,17 @@
+[Info  - 1:44:45 PM] ESLint server is starting.
+[Info  - 1:44:46 PM] ESLint server running in node v20.19.0
+[Info  - 1:44:46 PM] ESLint server is running.
+[Info  - 1:44:47 PM] ESLint library loaded from: /home/kruger/hdd/Codes/nuxt/my-project/node_modules/eslint/lib/api.js
+[Error - 1:46:39 PM] Calculating config file for file:///home/kruger/hdd/Codes/nuxt/my-project/.nuxt/components.d.ts) failed.
+TypeError: Unexpected function.
+    at flatTraverse (/home/kruger/hdd/Codes/nuxt/my-project/node_modules/@eslint/config-array/dist/cjs/index.cjs:510:12)
+    at flatTraverse.next (<anonymous>)
+    at normalize (/home/kruger/hdd/Codes/nuxt/my-project/node_modules/@eslint/config-array/dist/cjs/index.cjs:541:19)
+    at async FlatConfigArray.normalize (/home/kruger/hdd/Codes/nuxt/my-project/node_modules/@eslint/config-array/dist/cjs/index.cjs:1013:30)
+    at async ConfigLoader.calculateConfigArray (/home/kruger/hdd/Codes/nuxt/my-project/node_modules/eslint/lib/config/config-loader.js:690:3)
+    at async #calculateConfigArray (/home/kruger/hdd/Codes/nuxt/my-project/node_modules/eslint/lib/config/config-loader.js:770:23)
+    at async ESLint.calculateConfigForFile (/home/kruger/hdd/Codes/nuxt/my-project/node_modules/eslint/lib/eslint/eslint.js:1099:4)
+    at async ESLint.isPathIgnored (/home/kruger/hdd/Codes/nuxt/my-project/node_modules/eslint/lib/eslint/eslint.js:1139:18)
+    at async /home/kruger/.vscode/extensions/dbaeumer.vscode-eslint-3.0.10/server/out/eslintServer.js:1:24295
+    at async Object.M [as withClass] (/home/kruger/.vscode/extensions/dbaeumer.vscode-eslint-3.0.10/server/out/eslintServer.js:1:19807)
+[Info  - 1:51:25 PM] ESLint server stopped.

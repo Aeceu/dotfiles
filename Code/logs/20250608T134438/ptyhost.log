@@ -1,0 +1,1 @@
+2025-06-08 13:46:14.477 [error] Failed to set sticky bit on /tmp/kruger-code-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/kruger-code-zsh'

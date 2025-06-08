@@ -1,0 +1,15 @@
+2025-06-08 13:43:05.919 [info] [2025-06-08 05:43:05.892] [          9ms] [/home/kruger/hdd/Codes/nuxt/my-project] git rev-parse --show-toplevel • FAILED
+2025-06-08 13:43:05.919 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /home/kruger)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-06-08 13:43:12.008 [info] [2025-06-08 05:43:12.008] [        172ms] [/home/kruger/hdd/Codes/nuxt/my-project] git rev-parse --show-toplevel • FAILED
+2025-06-08 13:43:12.008 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /home/kruger)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-06-08 13:43:24.846 [info] [2025-06-08 05:43:24.846] [         31ms] [/home/kruger/hdd/Codes/nuxt/my-project/pages] git rev-parse --show-toplevel • FAILED
+2025-06-08 13:43:24.847 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /home/kruger)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+

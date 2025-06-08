@@ -1,0 +1,77 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "5dbc6dd98e6c3285d0a0b6ca796d14cefd6a1ea7e422e5092feb5dec0156d0d0",
+    "telemetry.devDeviceId": "b384ae32-12cb-46f6-9825-7621962610b4",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/kruger/hdd/Codes/nuxt/my-project"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 30,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/kruger/hdd/Codes/nuxt/my-project": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/kruger/hdd/Codes/nuxt/my-project",
+            "backupPath": "/home/kruger/.config/Code/Backups/84f5c97e4105186ed43dd997d6a975fb",
+            "uiState": {
+                "mode": 1,
+                "x": 12,
+                "y": 42,
+                "width": 1896,
+                "height": 1026
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#0f111a",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#babed8",
+            "background": "#0f111a",
+            "editorBackground": "#0f111a",
+            "titleBarBackground": "#090b10",
+            "titleBarBorder": "rgba(62, 68, 93, 0.38)",
+            "activityBarBackground": "#090b10",
+            "activityBarBorder": "rgba(62, 68, 93, 0.38)",
+            "sideBarBackground": "#090b10",
+            "sideBarBorder": "rgba(62, 68, 93, 0.38)",
+            "statusBarBackground": "#090b10",
+            "statusBarBorder": "rgba(62, 68, 93, 0.38)",
+            "statusBarNoFolderBackground": "#0f111a"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 30,
+            "activityBarWidth": 48,
+            "sideBarWidth": 252,
+            "auxiliarySideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 252,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "eb4a11fa2657a2e7b2458cb570f8f2c0": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

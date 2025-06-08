@@ -1,0 +1,46 @@
+2025-06-08 13:44:46.879 [info] GitLens v17.1.1 activating in Visual Studio Code (1.100.2) on the desktop; language='en', logLevel='warn', defaultDateLocale='null' (5dbc6dd98e6c3285d0a0b6ca796d14cefd6a1ea7e422e5092feb5dec0156d0d0|5d27f323-0786-4d41-807f-a818f0180e8a1749361479045)
+To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
+
+2025-06-08 13:44:46.879 [info] [2025-06-08 05:44:46.597] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any parent up to mount point /home/kruger)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[2025-06-08 05:44:46.598] [GIT          ] [/home/kruger/hdd/Codes/nuxt/my-project] git rev-parse --show-toplevel • not a git repository (or any parent up to mount point /home/kruger) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [443ms]
+
+2025-06-08 13:44:47.229 [info] [2025-06-08 05:44:47.064] [           10] GitCodeLensProvider.provideCodeLenses(TextDocument(vue, dirty=false, file:///home/kruger/hdd/Codes/nuxt/my-project/pages/index.vue)) Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any parent up to mount point /home/kruger)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[2025-06-08 05:44:47.064] [GIT          ] [/home/kruger/hdd/Codes/nuxt/my-project/pages] git rev-parse --show-toplevel • not a git repository (or any parent up to mount point /home/kruger) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [28ms]
+
+2025-06-08 13:44:48.733 [info] [2025-06-08 05:44:48.311] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any parent up to mount point /home/kruger)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[2025-06-08 05:44:48.311] [GIT          ] [/home/kruger/hdd/Codes/nuxt/my-project] git rev-parse --show-toplevel • not a git repository (or any parent up to mount point /home/kruger) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [26ms]
+
+2025-06-08 13:46:25.466 [info] [2025-06-08 05:46:24.916] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any parent up to mount point /home/kruger)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[2025-06-08 05:46:24.916] [GIT          ] [/home/kruger/hdd/Codes/nuxt/my-project] git rev-parse --show-toplevel • not a git repository (or any parent up to mount point /home/kruger) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [7ms]
+
+2025-06-08 13:46:39.187 [info] [2025-06-08 05:46:38.688] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any parent up to mount point /home/kruger)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[2025-06-08 05:46:38.688] [GIT          ] [/home/kruger/hdd/Codes/nuxt/my-project/.nuxt] git rev-parse --show-toplevel • not a git repository (or any parent up to mount point /home/kruger) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [22ms]
+
+2025-06-08 13:46:41.269 [info] [2025-06-08 05:46:40.960] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any parent up to mount point /home/kruger)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[2025-06-08 05:46:40.960] [GIT          ] [/home/kruger/hdd/Codes/nuxt/my-project/components] git rev-parse --show-toplevel • not a git repository (or any parent up to mount point /home/kruger) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [25ms]
+[2025-06-08 05:46:41.087] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any parent up to mount point /home/kruger)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[2025-06-08 05:46:41.087] [GIT          ] [/home/kruger/hdd/Codes/nuxt/my-project/components] git rev-parse --show-toplevel • not a git repository (or any parent up to mount point /home/kruger) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [19ms]
+
+2025-06-08 13:46:41.770 [info] [2025-06-08 05:46:41.370] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any parent up to mount point /home/kruger)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[2025-06-08 05:46:41.370] [GIT          ] [/home/kruger/hdd/Codes/nuxt/my-project/components] git rev-parse --show-toplevel • not a git repository (or any parent up to mount point /home/kruger) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [17ms]
+
+2025-06-08 13:46:43.772 [info] [2025-06-08 05:46:43.638] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any of the parent directories): .git
+
+[2025-06-08 05:46:43.638] [GIT          ] [/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib] git rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git [24ms]
+

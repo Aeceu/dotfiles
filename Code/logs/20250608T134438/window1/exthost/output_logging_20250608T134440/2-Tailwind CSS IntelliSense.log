@@ -1,0 +1,245 @@
+Locating server…
+Booting server...
+Setting up server…
+Listening for messages…
+Searching for Tailwind CSS projects in the workspace's folders.
+{"tailwind":{"version":"4.1.8","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false},"path":"/home/kruger/hdd/Codes/nuxt/my-project/tailwind.config.js"}
+{"tailwind":{"version":"4.1.8","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false},"path":"/home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tailwind.css"}
+{"tailwind":{"version":"4.1.8","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false},"path":"/home/kruger/hdd/Codes/nuxt/my-project/asset/css/main.css"}
+[Warn  - 1:44:48 PM] The config /home/kruger/hdd/Codes/nuxt/my-project/asset/css/main.css looks like it might be for a different Tailwind CSS version. Skipping.
+[Global] Creating projects: [{"folder":"/home/kruger/hdd/Codes/nuxt/my-project","config":"/home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tailwind.css","selectors":[{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tailwind.css","priority":0},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/.dockerignore","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/nuxt.config.ts","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/pages/index.vue","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/app.vue","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/tsconfig.json","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/README.md","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/package.json","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/layouts/default.vue","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/eslint.config.mjs","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/public/robots.txt","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/asset/css/main.css","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/server/tsconfig.json","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/components/AppHeader.vue","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/components/CustomButton.vue","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/components/AppFooter.vue","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/README.Docker.md","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/docker-compose.dev.yaml","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/compose.yaml","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/tailwind.config.js","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/Dockerfile","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/*","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/asset/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,tpl,ts,tsx,twig,txt,vue,yaml}","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/components/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,tpl,ts,tsx,twig,txt,vue,yaml}","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/composables/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,tpl,ts,tsx,twig,txt,vue,yaml}","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/layouts/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,tpl,ts,tsx,twig,txt,vue,yaml}","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/pages/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,tpl,ts,tsx,twig,txt,vue,yaml}","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/server/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,tpl,ts,tsx,twig,txt,vue,yaml}","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/.nuxt/**","priority":2},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/**","priority":4},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/**","priority":5}],"user":false,"tailwind":{"version":"4.1.8","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false}}]
+[Global] Preparing projects...
+[Global] Initializing projects...
+[.nuxt/tailwind.css] Initializing...
+[Global] Adding watch patterns: /home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tailwind.css, /home/kruger/hdd/Codes/nuxt/my-project/.nuxt, /home/kruger/hdd/Codes/nuxt/my-project
+[.nuxt/tailwind.css] supported features: ["css-at-theme","layer:base","content-list","source-inline","source-not"]
+[.nuxt/tailwind.css] Loaded tailwindcss v4.1.8: /home/kruger/hdd/Codes/nuxt/my-project/node_modules/tailwindcss
+[.nuxt/tailwind.css] Building...
+[Error - 1:44:48 PM] Unable to load stylesheet: /app/.nuxt/tailwindcss/sources.css Error: Can't resolve '/app/.nuxt/tailwindcss/sources.css' in '/home/kruger/hdd/Codes/nuxt/my-project/.nuxt'
+    at p (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:130:7155)
+    at /home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:131:713
+    at /home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:134:405
+    at eval (eval at create (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:5:78), <anonymous>:15:1)
+    at /home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:134:405
+    at eval (eval at create (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:5:78), <anonymous>:27:1)
+    at /home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:134:7916
+    at /home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:134:405
+    at eval (eval at create (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:5:78), <anonymous>:15:1)
+    at /home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:134:405 {
+  details: "resolve '/app/.nuxt/tailwindcss/sources.css' in '/home/kruger/hdd/Codes/nuxt/my-project/.nuxt'\n" +
+    '  using description file: /home/kruger/hdd/Codes/nuxt/my-project/package.json (relative path: ./.nuxt)\n' +
+    '    No description file found in /app/.nuxt/tailwindcss or above\n' +
+    '    no extension\n' +
+    "      /app/.nuxt/tailwindcss/sources.css doesn't exist\n" +
+    '    .css\n' +
+    "      /app/.nuxt/tailwindcss/sources.css.css doesn't exist\n" +
+    '    as directory\n' +
+    "      /app/.nuxt/tailwindcss/sources.css doesn't exist"
+}
+[Global] Adding watch patterns: /home/kruger/hdd/Codes/nuxt/my-project/node_modules/tailwindcss/index.css
+[Global] Initialized 1 projects
+----------
+RESTARTING
+----------
+[Error - 1:48:53 PM] e: failed to resolve "extends":"./.nuxt/tsconfig.json" in /home/kruger/hdd/Codes/nuxt/my-project/tsconfig.json
+    at eye (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:2655)
+    at VF (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:2093)
+    at qF (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:647)
+    at async sye (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:5997)
+    at async lye (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:5230)
+    at async GF (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:7260)
+    at async sC._initFolder (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:12386)
+    at async Promise.allSettled (index 0)
+    at async sC._init (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:10609)
+    at async sC.init (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:9467) {
+  code: 'EXTENDS_RESOLVE',
+  cause: Error: Can't resolve './.nuxt/tsconfig.json' in '/home/kruger/hdd/Codes/nuxt/my-project'
+      at p (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:130:7155)
+      at /home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:131:713
+      at /home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:134:405
+      at eval (eval at create (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:5:78), <anonymous>:15:1)
+      at /home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:134:405
+      at eval (eval at create (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:5:78), <anonymous>:27:1)
+      at /home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:134:7916
+      at /home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:134:405
+      at eval (eval at create (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:5:78), <anonymous>:15:1)
+      at /home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:134:405 {
+    details: "resolve './.nuxt/tsconfig.json' in '/home/kruger/hdd/Codes/nuxt/my-project'\n" +
+      '  using description file: /home/kruger/hdd/Codes/nuxt/my-project/package.json (relative path: .)\n' +
+      '    using description file: /home/kruger/hdd/Codes/nuxt/my-project/package.json (relative path: ./.nuxt/tsconfig.json)\n' +
+      '      no extension\n' +
+      "        /home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tsconfig.json doesn't exist\n" +
+      '      .js\n' +
+      "        /home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tsconfig.json.js doesn't exist\n" +
+      '      .json\n' +
+      "        /home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tsconfig.json.json doesn't exist\n" +
+      '      .node\n' +
+      "        /home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tsconfig.json.node doesn't exist\n" +
+      '      .mjs\n' +
+      "        /home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tsconfig.json.mjs doesn't exist\n" +
+      '      as directory\n' +
+      "        /home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tsconfig.json doesn't exist"
+  },
+  tsconfigFile: '/home/kruger/hdd/Codes/nuxt/my-project/tsconfig.json'
+}
+[Error - 1:48:53 PM] e: failed to resolve "extends":"../.nuxt/tsconfig.server.json" in /home/kruger/hdd/Codes/nuxt/my-project/server/tsconfig.json
+    at eye (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:2655)
+    at VF (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:2093)
+    at qF (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:647)
+    at async sye (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:5997)
+    at async lye (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:5230)
+    at async GF (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:7260)
+    at async sC._initFolder (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:12386)
+    at async Promise.allSettled (index 0)
+    at async sC._init (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:10609)
+    at async sC.init (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:9467) {
+  code: 'EXTENDS_RESOLVE',
+  cause: Error: Can't resolve '../.nuxt/tsconfig.server.json' in '/home/kruger/hdd/Codes/nuxt/my-project/server'
+      at p (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:130:7155)
+      at /home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:131:713
+      at /home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:134:405
+      at eval (eval at create (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:5:78), <anonymous>:15:1)
+      at /home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:134:405
+      at eval (eval at create (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:5:78), <anonymous>:27:1)
+      at /home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:134:7916
+      at /home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:134:405
+      at eval (eval at create (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:5:78), <anonymous>:15:1)
+      at /home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:134:405 {
+    details: "resolve '../.nuxt/tsconfig.server.json' in '/home/kruger/hdd/Codes/nuxt/my-project/server'\n" +
+      '  using description file: /home/kruger/hdd/Codes/nuxt/my-project/package.json (relative path: ./server)\n' +
+      '    using description file: /home/kruger/hdd/Codes/nuxt/my-project/package.json (relative path: ./.nuxt/tsconfig.server.json)\n' +
+      '      no extension\n' +
+      "        /home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tsconfig.server.json doesn't exist\n" +
+      '      .js\n' +
+      "        /home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tsconfig.server.json.js doesn't exist\n" +
+      '      .json\n' +
+      "        /home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tsconfig.server.json.json doesn't exist\n" +
+      '      .node\n' +
+      "        /home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tsconfig.server.json.node doesn't exist\n" +
+      '      .mjs\n' +
+      "        /home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tsconfig.server.json.mjs doesn't exist\n" +
+      '      as directory\n' +
+      "        /home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tsconfig.server.json doesn't exist"
+  },
+  tsconfigFile: '/home/kruger/hdd/Codes/nuxt/my-project/server/tsconfig.json'
+}
+Searching for Tailwind CSS projects in the workspace's folders.
+{"tailwind":{"version":"4.1.8","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false},"path":"/home/kruger/hdd/Codes/nuxt/my-project/tailwind.config.js"}
+{"tailwind":{"version":"4.1.8","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false},"path":"/home/kruger/hdd/Codes/nuxt/my-project/asset/css/main.css"}
+[Warn  - 1:48:53 PM] The config /home/kruger/hdd/Codes/nuxt/my-project/asset/css/main.css looks like it might be for a different Tailwind CSS version. Skipping.
+[Global] Creating projects: []
+[Global] Preparing projects...
+[Global] Initializing projects...
+[Global] Initialized 0 projects
+----------
+RESTARTING
+----------
+[Error - 1:48:59 PM] e: failed to resolve "extends":"../.nuxt/tsconfig.server.json" in /home/kruger/hdd/Codes/nuxt/my-project/server/tsconfig.json
+    at eye (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:2655)
+    at VF (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:2093)
+    at qF (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:647)
+    at async sye (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:5997)
+    at async lye (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:5230)
+    at async GF (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:7260)
+    at async sC._initFolder (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:12386)
+    at async Promise.allSettled (index 0)
+    at async sC._init (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:10609)
+    at async sC.init (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:9467) {
+  code: 'EXTENDS_RESOLVE',
+  cause: Error: Can't resolve '../.nuxt/tsconfig.server.json' in '/home/kruger/hdd/Codes/nuxt/my-project/server'
+      at p (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:130:7155)
+      at /home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:131:713
+      at /home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:134:405
+      at eval (eval at create (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:5:78), <anonymous>:15:1)
+      at /home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:134:405
+      at eval (eval at create (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:5:78), <anonymous>:27:1)
+      at /home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:134:7916
+      at /home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:134:405
+      at eval (eval at create (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:5:78), <anonymous>:15:1)
+      at /home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:134:405 {
+    details: "resolve '../.nuxt/tsconfig.server.json' in '/home/kruger/hdd/Codes/nuxt/my-project/server'\n" +
+      '  using description file: /home/kruger/hdd/Codes/nuxt/my-project/package.json (relative path: ./server)\n' +
+      '    using description file: /home/kruger/hdd/Codes/nuxt/my-project/package.json (relative path: ./.nuxt/tsconfig.server.json)\n' +
+      '      no extension\n' +
+      "        /home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tsconfig.server.json doesn't exist\n" +
+      '      .js\n' +
+      "        /home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tsconfig.server.json.js doesn't exist\n" +
+      '      .json\n' +
+      "        /home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tsconfig.server.json.json doesn't exist\n" +
+      '      .node\n' +
+      "        /home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tsconfig.server.json.node doesn't exist\n" +
+      '      .mjs\n' +
+      "        /home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tsconfig.server.json.mjs doesn't exist\n" +
+      '      as directory\n' +
+      "        /home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tsconfig.server.json doesn't exist"
+  },
+  tsconfigFile: '/home/kruger/hdd/Codes/nuxt/my-project/server/tsconfig.json'
+}
+Searching for Tailwind CSS projects in the workspace's folders.
+{"tailwind":{"version":"4.1.8","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false},"path":"/home/kruger/hdd/Codes/nuxt/my-project/tailwind.config.js"}
+{"tailwind":{"version":"4.1.8","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false},"path":"/home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tailwind.css"}
+{"tailwind":{"version":"4.1.8","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false},"path":"/home/kruger/hdd/Codes/nuxt/my-project/asset/css/main.css"}
+[Warn  - 1:48:59 PM] The config /home/kruger/hdd/Codes/nuxt/my-project/asset/css/main.css looks like it might be for a different Tailwind CSS version. Skipping.
+[Global] Creating projects: [{"folder":"/home/kruger/hdd/Codes/nuxt/my-project","config":"/home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tailwind.css","selectors":[{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tailwind.css","priority":0},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/.dockerignore","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/nuxt.config.ts","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/pages/index.vue","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/app.vue","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/tsconfig.json","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/README.md","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/package.json","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/layouts/default.vue","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/eslint.config.mjs","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/public/robots.txt","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/asset/css/main.css","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/server/tsconfig.json","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/components/AppHeader.vue","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/components/CustomButton.vue","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/components/AppFooter.vue","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/README.Docker.md","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/docker-compose.dev.yaml","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/compose.yaml","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/tailwind.config.js","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/Dockerfile","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/*","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/asset/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,tpl,ts,tsx,twig,txt,vue,yaml}","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/components/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,tpl,ts,tsx,twig,txt,vue,yaml}","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/composables/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,tpl,ts,tsx,twig,txt,vue,yaml}","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/layouts/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,tpl,ts,tsx,twig,txt,vue,yaml}","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/pages/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,tpl,ts,tsx,twig,txt,vue,yaml}","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/server/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,tpl,ts,tsx,twig,txt,vue,yaml}","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/.nuxt/**","priority":2},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/**","priority":4},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/**","priority":5}],"user":false,"tailwind":{"version":"4.1.8","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false}}]
+[Global] Preparing projects...
+[Global] Initializing projects...
+[Global] Initialized 0 projects
+----------
+RESTARTING
+----------
+[Error - 1:49:02 PM] e: failed to resolve "extends":"../.nuxt/tsconfig.server.json" in /home/kruger/hdd/Codes/nuxt/my-project/server/tsconfig.json
+    at eye (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:2655)
+    at VF (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:2093)
+    at qF (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:647)
+    at async sye (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:5997)
+    at async lye (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:5230)
+    at async GF (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:7260)
+    at async sC._initFolder (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:12386)
+    at async Promise.allSettled (index 0)
+    at async sC._init (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:10609)
+    at async sC.init (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:3553:9467) {
+  code: 'EXTENDS_RESOLVE',
+  cause: Error: Can't resolve '../.nuxt/tsconfig.server.json' in '/home/kruger/hdd/Codes/nuxt/my-project/server'
+      at p (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:130:7155)
+      at /home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:131:713
+      at /home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:134:405
+      at eval (eval at create (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:5:78), <anonymous>:15:1)
+      at /home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:134:405
+      at eval (eval at create (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:5:78), <anonymous>:27:1)
+      at /home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:134:7916
+      at /home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:134:405
+      at eval (eval at create (/home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:5:78), <anonymous>:15:1)
+      at /home/kruger/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.21/dist/tailwindServer.js:134:405 {
+    details: "resolve '../.nuxt/tsconfig.server.json' in '/home/kruger/hdd/Codes/nuxt/my-project/server'\n" +
+      '  using description file: /home/kruger/hdd/Codes/nuxt/my-project/package.json (relative path: ./server)\n' +
+      '    using description file: /home/kruger/hdd/Codes/nuxt/my-project/package.json (relative path: ./.nuxt/tsconfig.server.json)\n' +
+      '      no extension\n' +
+      "        /home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tsconfig.server.json doesn't exist\n" +
+      '      .js\n' +
+      "        /home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tsconfig.server.json.js doesn't exist\n" +
+      '      .json\n' +
+      "        /home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tsconfig.server.json.json doesn't exist\n" +
+      '      .node\n' +
+      "        /home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tsconfig.server.json.node doesn't exist\n" +
+      '      .mjs\n' +
+      "        /home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tsconfig.server.json.mjs doesn't exist\n" +
+      '      as directory\n' +
+      "        /home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tsconfig.server.json doesn't exist"
+  },
+  tsconfigFile: '/home/kruger/hdd/Codes/nuxt/my-project/server/tsconfig.json'
+}
+Searching for Tailwind CSS projects in the workspace's folders.
+{"tailwind":{"version":"4.1.8","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false},"path":"/home/kruger/hdd/Codes/nuxt/my-project/tailwind.config.js"}
+{"tailwind":{"version":"4.1.8","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false},"path":"/home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tailwind.css"}
+{"tailwind":{"version":"4.1.8","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false},"path":"/home/kruger/hdd/Codes/nuxt/my-project/asset/css/main.css"}
+[Warn  - 1:49:02 PM] The config /home/kruger/hdd/Codes/nuxt/my-project/asset/css/main.css looks like it might be for a different Tailwind CSS version. Skipping.
+[Global] Creating projects: [{"folder":"/home/kruger/hdd/Codes/nuxt/my-project","config":"/home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tailwind.css","selectors":[{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tailwind.css","priority":0},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/.dockerignore","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/nuxt.config.ts","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/pages/index.vue","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/app.vue","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/tsconfig.json","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/README.md","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/package.json","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/layouts/default.vue","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/eslint.config.mjs","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/public/robots.txt","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/asset/css/main.css","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/server/tsconfig.json","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/components/AppHeader.vue","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/components/CustomButton.vue","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/components/AppFooter.vue","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/README.Docker.md","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/docker-compose.dev.yaml","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/compose.yaml","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/tailwind.config.js","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/Dockerfile","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/*","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/asset/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,tpl,ts,tsx,twig,txt,vue,yaml}","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/components/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,tpl,ts,tsx,twig,txt,vue,yaml}","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/composables/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,tpl,ts,tsx,twig,txt,vue,yaml}","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/layouts/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,tpl,ts,tsx,twig,txt,vue,yaml}","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/pages/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,tpl,ts,tsx,twig,txt,vue,yaml}","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/server/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,tpl,ts,tsx,twig,txt,vue,yaml}","priority":1},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/.nuxt/**","priority":2},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/**","priority":4},{"pattern":"/home/kruger/hdd/Codes/nuxt/my-project/**","priority":5}],"user":false,"tailwind":{"version":"4.1.8","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false}}]
+[Global] Preparing projects...
+[Global] Initializing projects...
+[Global] Initialized 0 projects
+[.nuxt/tailwind.css] Initializing...
+[Global] Adding watch patterns: /home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tailwind.css, /home/kruger/hdd/Codes/nuxt/my-project/.nuxt, /home/kruger/hdd/Codes/nuxt/my-project
+[.nuxt/tailwind.css] supported features: ["css-at-theme","layer:base","content-list","source-inline","source-not"]
+[.nuxt/tailwind.css] Loaded tailwindcss v4.1.8: /home/kruger/hdd/Codes/nuxt/my-project/node_modules/tailwindcss
+[.nuxt/tailwind.css] Building...
+[Global] Adding watch patterns: /home/kruger/hdd/Codes/nuxt/my-project/.nuxt/tailwindcss/sources.css, /home/kruger/hdd/Codes/nuxt/my-project/node_modules/tailwindcss/index.css
