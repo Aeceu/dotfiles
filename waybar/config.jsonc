@@ -6,6 +6,10 @@
   "modules-right": [
     "tray",
     "custom/separator",
+    "memory",
+    "custom/gpu",
+    "cpu",
+    "custom/separator",
     "custom/network",
     "pulseaudio",
     "custom/brightness",
@@ -96,6 +100,26 @@
 
   "tray": {
     "spacing": 10,
+  },
+
+  "custom/gpu": {
+    "exec": "/home/kruger/.config/waybar/scripts/gpuinfo.sh --use nvidia",
+    "return-type": "json",
+    "format": "{text}",
+    "tooltip": true,
+    "interval": 5,
+    "rotate": 0,
+    "max-length": 1000,
+  },
+
+  "cpu": {
+    "format": "<span size='10000' foreground='#bb9af7'> {usage}%</span>",
+    "tooltip": false,
+  },
+
+  "memory": {
+    "format": "<span size='9500' foreground='#fab387'> {used:0.1f}G</span>",
+    "tooltip": false,
   },
 
   "custom/network": {

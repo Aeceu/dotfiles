@@ -7,11 +7,14 @@
         "folders": [
             {
                 "folderUri": "file:///home/kruger/hdd/Codes/vue/AcePlus"
+            },
+            {
+                "folderUri": "file:///home/kruger/hdd/Codes/nuxt/my-project"
             }
         ],
         "emptyWindows": []
     },
-    "windowControlHeight": 30,
+    "windowControlHeight": 22,
     "profileAssociations": {
         "workspaces": {
             "file:///home/kruger/hdd/Codes/nuxt/my-project": "__default__profile__",
@@ -21,14 +24,15 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/kruger/hdd/Codes/vue/AcePlus",
-            "backupPath": "/home/kruger/.config/Code/Backups/fac4ce3383ef0985e8b9dac8f64e24f9",
+            "folder": "file:///home/kruger/hdd/Codes/nuxt/my-project",
+            "backupPath": "/home/kruger/.config/Code/Backups/84f5c97e4105186ed43dd997d6a975fb",
             "uiState": {
-                "mode": 1,
-                "x": 12,
-                "y": 42,
+                "mode": 3,
+                "display": 33,
                 "width": 1896,
-                "height": 1026
+                "height": 1026,
+                "x": 12,
+                "y": 42
             }
         },
         "openedWindows": []
@@ -51,27 +55,13 @@
             "statusBarBackground": "#090b10",
             "statusBarBorder": "rgba(62, 68, 93, 0.38)",
             "statusBarNoFolderBackground": "#0f111a"
-        },
-        "layoutInfo": {
-            "sideBarSide": "left",
-            "editorPartMinWidth": 220,
-            "titleBarHeight": 30,
-            "activityBarWidth": 48,
-            "sideBarWidth": 252,
-            "auxiliarySideBarWidth": 0,
-            "statusBarHeight": 22,
-            "windowBorder": false
         }
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 252,
+            "sideBarWidth": 458,
             "auxiliaryBarWidth": 300,
             "workspaces": {
-                "eb4a11fa2657a2e7b2458cb570f8f2c0": {
-                    "sideBarVisible": true,
-                    "auxiliaryBarVisible": false
-                },
                 "56b6552145203e4676437382fcd440c6": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false
