@@ -1,0 +1,21 @@
+2025-06-12 09:08:47.599 [info] GitLens v17.1.1 activating in Visual Studio Code (1.100.3) on the desktop; language='en', logLevel='warn', defaultDateLocale='null' (5dbc6dd98e6c3285d0a0b6ca796d14cefd6a1ea7e422e5092feb5dec0156d0d0|43a05109-6f17-4dfb-86a0-1c7517e074631749690518863)
+To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
+
+2025-06-12 09:08:47.599 [info] [2025-06-12 01:08:47.197] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any parent up to mount point /home/kruger)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[2025-06-12 01:08:47.197] [GIT          ] [/home/kruger/hdd/Codes/nuxt/my-project] git rev-parse --show-toplevel • not a git repository (or any parent up to mount point /home/kruger) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [190ms]
+
+2025-06-12 09:08:48.097 [info] [2025-06-12 01:08:48.077] [            f] GitCodeLensProvider.provideCodeLenses(TextDocument(vue, dirty=false, file:///home/kruger/hdd/Codes/nuxt/my-project/pages/index.vue)) Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any parent up to mount point /home/kruger)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[2025-06-12 01:08:48.077] [GIT          ] [/home/kruger/hdd/Codes/nuxt/my-project/pages] git rev-parse --show-toplevel • not a git repository (or any parent up to mount point /home/kruger) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [49ms]
+
+2025-06-12 09:08:49.608 [info] [2025-06-12 01:08:49.281] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any parent up to mount point /home/kruger)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[2025-06-12 01:08:49.281] [GIT          ] [/home/kruger/hdd/Codes/nuxt/my-project] git rev-parse --show-toplevel • not a git repository (or any parent up to mount point /home/kruger) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [9ms]
+
+2025-06-12 09:10:46.058 [info] GitLens v17.1.1 activating in Visual Studio Code (1.100.3) on the desktop; language='en', logLevel='warn', defaultDateLocale='null' (5dbc6dd98e6c3285d0a0b6ca796d14cefd6a1ea7e422e5092feb5dec0156d0d0|743ee847-e17d-414f-a767-2c3de12227fa1749690642924)
+To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
+

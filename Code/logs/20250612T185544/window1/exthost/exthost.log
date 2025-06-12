@@ -1,0 +1,9 @@
+2025-06-12 18:55:47.472 [info] Extension host with pid 303390 started
+2025-06-12 18:55:47.472 [info] Skipping acquiring lock for /home/kruger/.config/Code/User/workspaceStorage/56b6552145203e4676437382fcd440c6.
+2025-06-12 18:55:47.867 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-12 18:55:47.964 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-06-12 18:55:47.967 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-06-12 18:55:48.053 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-12 18:55:48.158 [info] Eager extensions activated
+2025-06-12 18:55:48.163 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-12 18:55:48.182 [info] Extension host with pid 303390 exiting with code 0

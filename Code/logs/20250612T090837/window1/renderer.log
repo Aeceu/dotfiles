@@ -1,0 +1,10 @@
+2025-06-12 09:08:39.330 [info] Started local extension host with pid 23267.
+2025-06-12 09:08:40.814 [info] ComputeTargetPlatform: linux-x64
+2025-06-12 09:08:48.257 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-06-12 09:08:49.038 [info] [perf] Render performance baseline is 137ms
+2025-06-12 09:10:42.202 [warning] [backup tracker] suspended, ignoring unregister event file:///home/kruger/hdd/Codes/nuxt/my-project/package.json 
+2025-06-12 09:10:43.366 [info] Started local extension host with pid 24578.
+2025-06-12 09:10:43.443 [info] ComputeTargetPlatform: linux-x64
+2025-06-12 09:10:48.615 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-06-12 09:10:50.799 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-06-12 09:10:52.965 [info] [perf] Render performance baseline is 80ms

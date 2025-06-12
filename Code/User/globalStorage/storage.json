@@ -6,7 +6,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/kruger/hdd/Codes/nuxt/my-project"
+                "folderUri": "file:///home/kruger/hdd/Codes/vue/AcePlus"
             }
         ],
         "emptyWindows": []
@@ -14,14 +14,15 @@
     "windowControlHeight": 30,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/kruger/hdd/Codes/nuxt/my-project": "__default__profile__"
+            "file:///home/kruger/hdd/Codes/nuxt/my-project": "__default__profile__",
+            "file:///home/kruger/hdd/Codes/vue/AcePlus": "__default__profile__"
         },
         "emptyWindows": {}
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/kruger/hdd/Codes/nuxt/my-project",
-            "backupPath": "/home/kruger/.config/Code/Backups/84f5c97e4105186ed43dd997d6a975fb",
+            "folder": "file:///home/kruger/hdd/Codes/vue/AcePlus",
+            "backupPath": "/home/kruger/.config/Code/Backups/fac4ce3383ef0985e8b9dac8f64e24f9",
             "uiState": {
                 "mode": 1,
                 "x": 12,
@@ -68,6 +69,10 @@
             "auxiliaryBarWidth": 300,
             "workspaces": {
                 "eb4a11fa2657a2e7b2458cb570f8f2c0": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "56b6552145203e4676437382fcd440c6": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false
                 }

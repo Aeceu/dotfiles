@@ -1,0 +1,12 @@
+2025-06-12 18:55:46.317 [info] Started local extension host with pid 303390.
+2025-06-12 18:55:46.402 [info] ComputeTargetPlatform: linux-x64
+2025-06-12 18:55:47.344 [warning] No search provider registered for scheme: file, waiting
+2025-06-12 18:55:48.099 [error] Canceled: Canceled
+    at J0 (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:7:1105)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3272:37225
+    at Array.forEach (<anonymous>)
+    at V0t.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3272:37165)
+    at bDe.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3272:48837)
+    at tZs.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3279:7460)
+    at eZs.stopAllInReverse (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3279:6762)
+    at async Abt.tb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3278:16229)
