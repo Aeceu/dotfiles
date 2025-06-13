@@ -50,7 +50,7 @@ inputbar {
 }
 
 listview {
-    columns:                1;
+    columns:                2;
     lines:                  5;
     cycle:                  false;
     dynamic:                true;
