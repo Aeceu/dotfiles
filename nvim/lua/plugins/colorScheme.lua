@@ -2,6 +2,9 @@ return {
   {
     "folke/tokyonight.nvim",
     opts = {
+      on_highlights = function(highlights)
+        highlights.WinSeparator = { fg = "#7dcfff", bg = "NONE" }
+      end,
       transparent = true,
       styles = {
         sidebars = "transparent",

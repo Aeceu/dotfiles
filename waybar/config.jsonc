@@ -15,7 +15,7 @@
     "custom/brightness",
     "custom/clipboard",
     "custom/separator",
-    "custom/power",
+    "custom/power"
   ],
 
   "hyprland/workspaces": {
@@ -27,8 +27,9 @@
     "disable-scroll": false,
     "on-scroll-up": "hyprctl dispatch workspace -1",
     "on-scroll-down": "hyprctl dispatch workspace +1",
-    "persistent-workspaces": {},
+    "persistent-workspaces": {}
   },
+
   "hyprland/window": {
     "format": "\uf303 {0}",
     "rotate": 0,
@@ -51,9 +52,9 @@
       "(.*) \u2014 Github": "$1 \ue709 ",
       "(.*)Github": "Github \ue709",
       "(.*)Spotify Free": "Spotify \udb81\udcc7",
-      "(.*)Spotify Premiun": "Spotify \udb81\udcc7",
+      "(.*)Spotify Premiun": "Spotify \udb81\udcc7"
     },
-    "max-length": 70,
+    "max-length": 70
   },
 
   "wlr/taskbar": {
@@ -75,7 +76,7 @@
       "firefoxdeveloperedition": "firefox-developer-edition",
       "firefoxnightly": "Firefox-nightly",
       "Spotify Free": "Spotify",
-      "Docker Desktop": "Docker",
+      "Docker Desktop": "Docker"
     },
     "rewrite": {
       "Firefox Web Browser": "Firefox",
@@ -83,23 +84,23 @@
       "Spotify Free": "Spotify",
       "org.kde.dolphin": "nautilus",
       "libreoffice-writer": "writer",
-      "docker": "",
-    },
+      "docker": ""
+    }
   },
 
   "custom/separator": {
     "format": "|",
-    "tooltip": false,
+    "tooltip": false
   },
 
   "clock": {
     "format": " {:%b %d %I:%M%p}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-    "tooltip": true,
+    "tooltip": true
   },
 
   "tray": {
-    "spacing": 10,
+    "spacing": 10
   },
 
   "custom/gpu": {
@@ -109,17 +110,17 @@
     "tooltip": true,
     "interval": 5,
     "rotate": 0,
-    "max-length": 1000,
+    "max-length": 1000
   },
 
   "cpu": {
     "format": "<span size='10000' foreground='#bb9af7'> {usage}%</span>",
-    "tooltip": false,
+    "tooltip": false
   },
 
   "memory": {
     "format": "<span size='9500' foreground='#fab387'> {used:0.1f}G</span>",
-    "tooltip": false,
+    "tooltip": false
   },
 
   "custom/network": {
@@ -127,7 +128,7 @@
     "return-type": "json",
     "interval": 1,
     "format": "{}",
-    "tooltip": true,
+    "tooltip": true
   },
 
   "pulseaudio": {
@@ -137,12 +138,12 @@
       "default": [
         "<span size='9000'></span>",
         "<span size='9000'></span>",
-        "<span size='9000'> </span>",
-      ],
+        "<span size='9000'> </span>"
+      ]
     },
     "on-click": "pavucontrol",
     "on-scroll-up": "/home/kruger/.config/dunst/scripts/notify_volume.sh up",
-    "on-scroll-down": "/home/kruger/.config/dunst/scripts/notify_volume.sh down",
+    "on-scroll-down": "/home/kruger/.config/dunst/scripts/notify_volume.sh down"
   },
 
   "custom/brightness": {
@@ -151,20 +152,20 @@
     "format": "{text}",
     "interval": 5,
     "tooltip": true,
-    "on-click": "~/.config/waybar/scripts/toggle_brightness.sh",
+    "on-click": "~/.config/waybar/scripts/toggle_brightness.sh"
   },
 
   "custom/clipboard": {
     "format": "<span size='9000'></span>",
     "tooltip": "Click to view clipboard history",
     "on-click": "~/.config/waybar/scripts/clipboard_menu.sh",
-    "interval": 0,
+    "interval": 0
   },
 
   "custom/power": {
     "format": "<span size='9000' foreground='#ff5370'>⏻</span>",
     "tooltip": "Power Options",
     "on-click": "~/.config/waybar/scripts/rofi_power_menu.sh",
-    "interval": 3600,
-  },
+    "interval": 3600
+  }
 }

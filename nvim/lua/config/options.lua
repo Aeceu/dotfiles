@@ -3,6 +3,10 @@
 -- https://neovim.io/doc/user/vim_diff.html#nvim-defaults
 local opt = vim.opt
 
+-- Enable the option to require a Prettier config file
+-- If no prettier config file is found, the formatter will not be used
+vim.g.lazyvim_prettier_needs_config = false
+
 -- Tab
 opt.softtabstop = 0 --> How many chracters the /cursor moves/ with <TAB> and <BS> -- 0 to disable
 opt.expandtab = true --> Use space instead of tab

@@ -6,33 +6,40 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/kruger/hdd/Codes/vue/AcePlus"
+                "folderUri": "file:///home/kruger/hdd/Codes/nuxt/my-project"
             },
             {
-                "folderUri": "file:///home/kruger/hdd/Codes/nuxt/my-project"
+                "folderUri": "file:///home/kruger/.config"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1749773016844"
+            }
+        ]
     },
-    "windowControlHeight": 22,
+    "windowControlHeight": 36,
     "profileAssociations": {
         "workspaces": {
             "file:///home/kruger/hdd/Codes/nuxt/my-project": "__default__profile__",
-            "file:///home/kruger/hdd/Codes/vue/AcePlus": "__default__profile__"
+            "file:///home/kruger/hdd/Codes/vue/AcePlus": "__default__profile__",
+            "file:///home/kruger/.config": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1749773016844": "__default__profile__"
+        }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/kruger/hdd/Codes/nuxt/my-project",
-            "backupPath": "/home/kruger/.config/Code/Backups/84f5c97e4105186ed43dd997d6a975fb",
+            "folder": "file:///home/kruger/.config",
+            "backupPath": "/home/kruger/.config/Code/Backups/3d46867b9471269108f00e25abfe5dff",
             "uiState": {
-                "mode": 3,
-                "display": 33,
+                "mode": 1,
+                "x": 12,
+                "y": 42,
                 "width": 1896,
                 "height": 1026,
-                "x": 12,
-                "y": 42
+                "zoomLevel": 1
             }
         },
         "openedWindows": []
@@ -55,14 +62,32 @@
             "statusBarBackground": "#090b10",
             "statusBarBorder": "rgba(62, 68, 93, 0.38)",
             "statusBarNoFolderBackground": "#0f111a"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 30,
+            "activityBarWidth": 48,
+            "sideBarWidth": 303,
+            "auxiliarySideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
         }
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 458,
+            "sideBarWidth": 303,
             "auxiliaryBarWidth": 300,
             "workspaces": {
                 "56b6552145203e4676437382fcd440c6": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "eb4a11fa2657a2e7b2458cb570f8f2c0": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "87592bf9b24df233a5d2d7524146e4e2": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false
                 }

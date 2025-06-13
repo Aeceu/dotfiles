@@ -9,7 +9,7 @@ QtProject.conf
 pavucontrol.ini
 gwenviewrc
 mimeapps.list
-Code
+Code/
 
 # Ignore cache or non-config folders
 session/
