@@ -1,8 +1,8 @@
 #!/bin/bash
 
 CACHE=~/.cache/waybar-brightness
-DAY=100
-NIGHT=30
+DAY=80
+NIGHT=10
 
 # Read from cache or assume DAY
 if [[ -f "$CACHE" ]]; then

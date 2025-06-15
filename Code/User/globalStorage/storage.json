@@ -6,69 +6,59 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/kruger/hdd/Codes/nuxt/my-project"
-            },
-            {
-                "folderUri": "file:///home/kruger/.config"
+                "folderUri": "file:///home/kruger/hdd/Codes/mern/stylelayer"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1749773016844"
-            }
-        ]
+        "emptyWindows": []
     },
-    "windowControlHeight": 36,
+    "windowControlHeight": 30,
     "profileAssociations": {
         "workspaces": {
             "file:///home/kruger/hdd/Codes/nuxt/my-project": "__default__profile__",
             "file:///home/kruger/hdd/Codes/vue/AcePlus": "__default__profile__",
-            "file:///home/kruger/.config": "__default__profile__"
+            "file:///home/kruger/.config": "__default__profile__",
+            "file:///home/kruger/hdd/Codes/mern/stylelayer": "__default__profile__"
         },
-        "emptyWindows": {
-            "1749773016844": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/kruger/.config",
-            "backupPath": "/home/kruger/.config/Code/Backups/3d46867b9471269108f00e25abfe5dff",
+            "folder": "file:///home/kruger/hdd/Codes/mern/stylelayer",
+            "backupPath": "/home/kruger/.config/Code/Backups/d4d7837ed8c1bef3ee2343c43fbd8e36",
             "uiState": {
                 "mode": 1,
                 "x": 12,
                 "y": 42,
                 "width": 1896,
-                "height": 1026,
-                "zoomLevel": 1
+                "height": 1026
             }
         },
         "openedWindows": []
     },
     "theme": "vs-dark",
-    "themeBackground": "#0f111a",
+    "themeBackground": "#1d2021",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#babed8",
-            "background": "#0f111a",
-            "editorBackground": "#0f111a",
-            "titleBarBackground": "#090b10",
-            "titleBarBorder": "rgba(62, 68, 93, 0.38)",
-            "activityBarBackground": "#090b10",
-            "activityBarBorder": "rgba(62, 68, 93, 0.38)",
-            "sideBarBackground": "#090b10",
-            "sideBarBorder": "rgba(62, 68, 93, 0.38)",
-            "statusBarBackground": "#090b10",
-            "statusBarBorder": "rgba(62, 68, 93, 0.38)",
-            "statusBarNoFolderBackground": "#0f111a"
+            "foreground": "#ebdbb2",
+            "background": "#1d2021",
+            "editorBackground": "#1d2021",
+            "titleBarBackground": "#1d2021",
+            "activityBarBackground": "#1d2021",
+            "activityBarBorder": "#3c3836",
+            "sideBarBackground": "#1d2021",
+            "sideBarBorder": "#3c3836",
+            "statusBarBackground": "#1d2021",
+            "statusBarBorder": "#3c3836",
+            "statusBarNoFolderBackground": "#1d2021"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 30,
             "activityBarWidth": 48,
-            "sideBarWidth": 303,
+            "sideBarWidth": 0,
             "auxiliarySideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -76,7 +66,7 @@
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 303,
+            "sideBarWidth": 230,
             "auxiliaryBarWidth": 300,
             "workspaces": {
                 "56b6552145203e4676437382fcd440c6": {
@@ -89,6 +79,10 @@
                 },
                 "87592bf9b24df233a5d2d7524146e4e2": {
                     "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "d9e95257989c66e649da3ea58343054a": {
+                    "sideBarVisible": false,
                     "auxiliaryBarVisible": false
                 }
             }
