@@ -1,0 +1,3 @@
+selector = "rofi"
+selector-args = "-dmenu -config ~/.config/rofimoji/emoji.rasi -p 'Emoji 😄'"
+clipboarder = "wl-copy"

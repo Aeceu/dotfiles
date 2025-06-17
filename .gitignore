@@ -1,0 +1,63 @@
+
+# Ignore general system/user files
+Docker Desktop/
+baloo*
+Trash/
+trashrc
+user-dirs.*
+QtProject.conf
+pavucontrol.ini
+gwenviewrc
+mimeapps.list
+Code/
+clerk/
+systemd/
+swappy/
+mpv/
+gitui/
+dconf/
+
+# Ignore cache or non-config folders
+session/
+yay/
+obs-studio/
+vlc/
+libreoffice/
+nautilus/
+dconf/  # binary and system-managed
+
+# Ignore project-related scaffolding
+create-next-app-nodejs/
+nextjs-nodejs/
+prisma-platform-cli/
+
+# Ignore unrelated GUI settings
+kde.org/
+nwg-look/
+xsettingsd/
+qt5ct/
+qt6ct/
+
+# Optional: ignore things you haven't customized
+pulse/
+htop/
+# fastfetch/
+go/
+gtk-3.0/
+gtk-4.0/
+
+# Include only if customized – comment out to keep
+# kvantum/
+# rofi/
+# rofimoji/
+# kitty/
+# wezterm/
+# waybar/
+# hypr/
+# nvim/
+# wofi/
+# cava/
+# swappy/
+
+# Dotfiles in root to exclude
+filetypesrc
