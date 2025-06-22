@@ -1,4 +1,3 @@
-(defpoll TIME :interval "1s" "date '+%I:%M %p'")
 
 (defwidget time[]
   (box :orientation "vertical"

@@ -1,7 +1,7 @@
 (defpoll METADATA :interval "1s" "$HOME/.config/eww/scripts/media_metadata.sh")
 
 (defwidget media[]
-    (box :orientation "h"
+    (box :orientation "v"
          :class "media"
          :space-evenly false
          :spacing 20

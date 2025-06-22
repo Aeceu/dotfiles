@@ -1,6 +1,11 @@
 (include "./media_info.yuck")
 (include "./time.yuck")
+(include "./time_solo.yuck")
 
+
+(defpoll TIME :interval "1s" "date '+%I:%M %p'")
+(defpoll DATE :interval "60s" "date '+%A, %B %d, %Y'")
+(deflisten cava "$HOME/.config/eww/scripts/cava-internal.sh")
 
 (defwidget container_1[]
   (box :orientation "v"
@@ -10,16 +15,70 @@
          :spacing 20
          :space-evenly false
       (media)
-      (time)
     )
   )
 )
 
+(defwidget container_2[]
+  (box :orientation "v"
+       :spacing 10
+       :space-evenly false
+    (box :orientation "h"
+         :spacing 20
+         :space-evenly false
+      (time-solo)
+    )
+  (box
+       :orientation "v"
+       :spacing 10
+       :space-evenly false
+      :valign "center"
+      :halign "center"
+    (label 
+    :class "cavabar"
+    :text cava
+    )
+  )
+  )
+)
+
+(defwidget cava[]
+  (box
+       :orientation "v"
+       :spacing 10
+       :space-evenly false
+      :valign "center"
+      :halign "center"
+    (label 
+    :width 300
+    :height 150
+    :vexpand "false" 
+    :hexpand "false" 
+    :class "cavabar"
+    :text cava
+      :valign "end"
+      :halign "end"
+    )
+  )
+)
+
+
+
+(defwindow timewidget
+ :monitor 0
+ :geometry (geometry :x "1%"
+   :y "10%"
+   :anchor "top center")
+ :stacking "bottom"
+ :focusable: none
+ (container_2))
+
+
 (defwindow mywidgets
     :monitor 0
-    :geometry (geometry :x "1%"
-                        :y "2%"
-                        :anchor "top center")
+    :geometry (geometry :x "5%"
+                        :y "5%"
+                        :anchor "top left")
     :stacking "bottom"
     :focusable: none
 (container_1))

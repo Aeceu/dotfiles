@@ -1,33 +1,22 @@
 {
   "position": "top",
-  "height": 20,
-  "modules-left": ["hyprland/workspaces"],
-  "modules-center": ["clock"],
+  "height": 30,
+  "modules-left": ["clock"],
+  "modules-center": ["hyprland/workspaces"],
   "modules-right": [
     "tray",
-    "custom/separator",
+
     "memory",
     "custom/gpu",
     "cpu",
-    "custom/separator",
+
     "custom/network",
     "pulseaudio",
     "custom/brightness",
     "custom/clipboard",
-    "custom/bluetooth",
-    "custom/separator",
+
     "custom/power"
   ],
-
-  "custom/bluetooth": {
-    "exec": "~/.config/waybar/scripts/bluetooth_status.sh",
-    "return-type": "json",
-    "interval": 5,
-    "format": "{icon}",
-    "tooltip": true,
-    "tooltip-format": "{tooltip}",
-    "on-click": "blueman-manager"
-  },
 
   "hyprland/window": {
     "format": "\uf303 {0}",
@@ -56,44 +45,8 @@
     "max-length": 70
   },
 
-  "wlr/taskbar": {
-    "all-outputs": true,
-    "active-first": false,
-    "markup": true,
-    "format": "{icon} ",
-    "rotate": 0,
-    "spacing": 20,
-    "tooltip-format": "{app_id}",
-    "on-click": "activate",
-    "on-click-right": "fullscreen",
-    "on-click-middle": "close",
-    "class": "no-margin-padding",
-    "sort": true,
-    "group-by-workspace": true,
-    "ignore-list": [""],
-    "app_ids-mapping": {
-      "firefoxdeveloperedition": "firefox-developer-edition",
-      "firefoxnightly": "Firefox-nightly",
-      "Spotify Free": "Spotify",
-      "Docker Desktop": "Docker"
-    },
-    "rewrite": {
-      "Firefox Web Browser": "Firefox",
-      "Foot Server": "Terminal",
-      "Spotify Free": "Spotify",
-      "org.kde.dolphin": "nautilus",
-      "libreoffice-writer": "writer",
-      "docker": ""
-    }
-  },
-
-  "custom/separator": {
-    "format": "|",
-    "tooltip": false
-  },
-
   "clock": {
-    "format": " {:%b %d %I:%M%p}",
+    "format": "{:%A, %b %d :%I:%M %p}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
     "tooltip": true
   },
@@ -113,12 +66,12 @@
   },
 
   "cpu": {
-    "format": "<span size='10000' foreground='#bb9af7'> {usage}%</span>",
+    "format": "<span size='9000' foreground='#bb9af7'> {usage}%</span>",
     "tooltip": false
   },
 
   "memory": {
-    "format": "<span size='9500' foreground='#fab387'> {used:0.1f}G</span>",
+    "format": "<span size='9000' foreground='#fab387'> {used:0.1f}G</span>",
     "tooltip": false
   },
 

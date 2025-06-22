@@ -46,4 +46,4 @@ else
   TX_SPEED="${TX_KB} KB/s"
 fi
 
-printf '{ "text": "<span size=\\"9000\\" > </span>", "tooltip": "Download: %s  |  Upload: %s" }\n' "$RX_SPEED" "$TX_SPEED"
+printf '{ "text": "<span size=\\"8500\\" ></span>", "tooltip": "Download: %s  |  Upload: %s" }\n' "$RX_SPEED" "$TX_SPEED"

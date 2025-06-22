@@ -1,21 +1,3 @@
-#!/usr/bin/env bash
-# shellcheck disable=SC2312
-# shellcheck disable=SC1090
-
-# GPU info script
-# some part of the algo is from https://github.com/mislah
-# https://github.com/prasanthrangan/hyprdots/pull/952
-# by: The HyDE Project ;- khing
-
-# Benchmark Tool: hyperfine
-# NVIDIA: gpuinfo.sh
-#   Time (mean ± σ):      75.7 ms ±   8.0 ms    [User: 31.0 ms, System: 41.9 ms]
-#   Range (min … max):    45.7 ms …  91.4 ms    34 runs
-
-# INTEL/GENERAL: gpuinfo.sh
-#   Time (mean ± σ):     246.9 ms ±  22.5 ms    [User: 112.4 ms, System: 87.5 ms]
-# Range (min … max):   184.0 ms … 272.1 ms    12 runs
-
 scrDir=$(dirname "$(realpath "$0")")
 gpuinfo_file="/tmp/hyde-${UID}-gpuinfo"
 
@@ -226,7 +208,7 @@ generate_json() {
   temp_color=$(get_temp_color "${temperature}")
 
   # Create the JSON string with colored temperature
-  local json="{\"text\":\"<span size='10000' color='#94e2d5'>${speedo}${utilization}%</span>\", \"tooltip\":\"${emoji} ${primary_gpu}\n${thermo} Temperature: ${temp_color}"
+  local json="{\"text\":\"<span size='9000' color='#94e2d5'>${speedo}${utilization}%</span>\", \"tooltip\":\"${emoji} ${primary_gpu}\n${thermo} Temperature: ${temp_color}"
 
   #TODO Add Something incase needed.
   declare -A tooltip_parts

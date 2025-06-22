@@ -24,7 +24,7 @@ window {
     border-radius:          0px;
     width:                  75%;
     padding:                40px;
-    border-color:           #7aa2f7;
+    border-color:           #7dcfff;
     border:                 2px;
 }
 
@@ -67,6 +67,6 @@ element-text, element-icon {
 element selected {
     background-color:       @button;
     border-radius:          0px;
-    border-color:           #7aa2f7;
+    border-color:           #7dcfff;
     border:                 2px;
 }

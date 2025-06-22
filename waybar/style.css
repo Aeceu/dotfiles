@@ -2,25 +2,16 @@
 
 * {
   font-family: "JetBrainsMono Nerd Font";
+  min-height: 20px;
   font-size: 12px;
-  min-height: 0;
   font-weight: bold;
   /* border: 1px solid red; */
 }
 
 window#waybar {
   background: transparent;
-  background-color: @crust;
   color: @overlay0;
   transition: background-color 0.1s;
-}
-
-#tray menu * {
-  min-height: 1.6em;
-}
-
-#tray menu separator {
-  min-height: 0.1em;
 }
 
 #window {
@@ -29,123 +20,98 @@ window#waybar {
   padding: 0px 8px;
 }
 
-/* WLR Taskbar buttons */
-#taskbar button {
-  box-shadow: none;
-  text-shadow: none;
-
-  margin-top: 0.3em;
-  margin-bottom: 0.3em;
-  margin-right: 0em;
-  margin-left: 0.5em;
-
-  padding: 0em;
-  padding-left: 0.3em;
-  padding-right: 0.3em;
-
-  color: @blue;
-  animation: tb_normal 20s ease-in-out 1;
-  border-radius: 0px;
-}
-
-#taskbar button.active {
-  background: @blue;
-  margin-left: 0.3em;
-  padding-left: 0.7em;
-  padding-right: 0.2em;
-  margin-right: 0.3em;
-  animation: tb_active 20s ease-in-out 1;
-  transition: all 0.4s cubic-bezier(0.55, -0.68, 0.48, 1.682);
-}
-
-#taskbar button:hover {
-  background: @blue;
-  animation: tb_hover 20s ease-in-out 1;
-  transition: all 0.3s cubic-bezier(0.55, -0.68, 0.48, 1.682);
-}
-
-/* Workspaces */
-#workspaces button {
-  border-radius: 0;
-  font-size: 12px;
-  box-shadow: none;
-  text-shadow: none;
+/* Background EACH  */
+#taskbar {
+  background: @crust;
   color: @milkPink;
-  animation: tb_normal 20s ease-in-out 1;
+  border-radius: 5px;
+  padding: 0em;
+  margin-top: 0.4em;
+  margin-left: 0.5em;
+}
+
+#taskbar button {
   padding: 0;
-  padding-left: 0.4em;
-  padding-right: 0.3em;
-
-  margin: 4px 2px;
+  margin: 0;
+  padding: 0.3em 0.6em;
 }
 
-#workspaces button.focused {
-  background: @blue;
-  color: white;
-  animation: tb_active 20s ease-in-out 1;
-  transition: all 0.4s cubic-bezier(0.55, -0.68, 0.48, 1.682);
+#clock,
+#clock.date,
+#clock.time {
+  background: @crust;
+  margin-top: 0.3em;
+  margin-left: 0.5em;
+  border-radius: 5px;
+  padding: 0.3em 1.5em;
 }
 
-#workspaces button.active {
-  background: @blue;
-  color: white;
-  animation: tb_active 20s ease-in-out 1;
-  transition: all 0.4s cubic-bezier(0.55, -0.68, 0.48, 1.682);
+#workspaces {
+  background: @crust;
+  color: @milkPink;
+  border-radius: 5px;
+  padding: 0em;
+  margin-top: 0.4em;
+  font-size: 14px;
 }
 
+#workspaces button {
+  padding: 0;
+  margin: 0;
+  padding: 0.3em 0.6em;
+  border-radius: 5px;
+}
+
+#workspaces button.active,
+#workspaces button.focused,
 #workspaces button.hover {
   background: @blue;
-  color: white;
-  animation: tb_active 20s ease-in-out 1;
-  transition: all 0.4s cubic-bezier(0.55, -0.68, 0.48, 1.682);
+  font-weight: bold;
 }
-
 #workspaces button.urgent {
-  background-color: #eb4d4b;
+  color: @red;
 }
 
-/* Consistent module padding/margin */
-#battery,
-#cpu,
-#memory,
-#disk,
-#temperature,
-#backlight,
-#wireplumber,
 #tray,
-#mode,
-#scratchpad,
-#custom-network,
-#custom-gpu {
-  padding: 2px 4px;
-}
-
+#memory,
+#custom-gpu,
+#cpu,
 #custom-power {
-  padding: 0 9px;
+  background: @crust;
+  margin-top: 0.3em;
+  margin-right: 0.5em;
+
+  border-radius: 5px;
+  padding: 0.1em 1.3em;
 }
 
 #pulseaudio,
 #custom-brightness {
-  padding-left: 4px;
-  padding-right: 6px;
+  background: @crust;
+  margin-top: 0.3em;
+  padding-right: 1em;
+}
+
+#custom-network {
+  border-radius: 5px 0px 0px 5px;
+  background: @crust;
+  margin-top: 0.3em;
+  padding: 0em 1.2em;
 }
 
 #custom-clipboard {
-  padding-left: 4px;
-  padding-right: 8px;
+  border-radius: 0px 5px 5px 0px;
+  background: @crust;
+  margin-top: 0.3em;
+  margin-right: 0.5em;
+  padding-right: 1.3em;
 }
 
 /* Colors */
-#clock,
-#clock.date {
-  color: @blue;
+#clock {
+  color: @milkPink;
 }
 
-#custom-separator {
-  font-weight: 800;
-  font-size: 14px;
-  color: white;
-}
 #custom-network,
 #custom-updates,
 #pulseaudio,
@@ -154,102 +120,6 @@ window#waybar {
   color: @milkPink;
 }
 
-#custom-power {
-  padding-right: 12px;
-  color: @red;
-}
 #battery {
   color: @green;
 }
-
-#idle_inhibitor {
-  margin-right: 12px;
-  color: #7cb342;
-}
-#idle_inhibitor.activated {
-  color: @red;
-}
-
-/* Workspace margin handling */
-.modules-left > widget:first-child > #workspaces {
-  margin-left: 0;
-}
-.modules-right > widget:last-child > #workspaces {
-  margin-right: 0;
-}
-
-/* No bg style (under constranction!!) */
-
-/* @import "tokyo-night.css"; */
-/**/
-/* * { */
-/*   font-family: "JetBrainsMono Nerd Font"; */
-/*   font-size: 8px; */
-/*   min-height: 0; */
-/*   font-weight: bold; */
-/* } */
-/**/
-/* window#waybar { */
-/*   background: transparent; */
-/*   color: @overlay0; */
-/*   transition: background-color 0.1s; */
-/* } */
-/**/
-/* #workspaces, */
-/* #taskbar { */
-/*   background: @crust; */
-/*   margin-top: 0.3em; */
-/*   margin-left: 0.3em; */
-/**/
-/*   border-radius: 20px; */
-/*   padding: 0em 0.5em; */
-/* } */
-/**/
-/* #workspaces button { */
-/*   font-size: 10px; */
-/*   color: @white; */
-/*   animation: tb_normal 20s ease-in-out 1; */
-/*   border-radius: 20px; */
-/**/
-/*   margin: 0.5em 0em; */
-/*   padding: 0em 1em; */
-/* } */
-/**/
-/* #taskbar button { */
-/*   color: @white; */
-/*   animation: tb_normal 20s ease-in-out 1; */
-/*   border-radius: 20px; */
-/**/
-/*   margin: 0.5em 0em; */
-/*   padding: 0.2em 0em; */
-/*   padding-left: 1em; */
-/*   padding-right: 0.5em; */
-/* } */
-/**/
-/* #taskbar button.focused, */
-/* #workspaces button.focused { */
-/*   background: @blue; */
-/*   color: white; */
-/*   animation: tb_active 20s ease-in-out 1; */
-/*   transition: all 0.4s cubic-bezier(0.55, -0.68, 0.48, 1.682); */
-/* } */
-/**/
-/* #taskbar button.active, */
-/* #workspaces button.active { */
-/*   background: @blue; */
-/*   color: white; */
-/*   animation: tb_active 20s ease-in-out 1; */
-/*   transition: all 0.4s cubic-bezier(0.55, -0.68, 0.48, 1.682); */
-/* } */
-/* #taskbar button.hover, */
-/* #workspaces button.hover { */
-/*   background: @blue; */
-/*   color: white; */
-/*   animation: tb_active 20s ease-in-out 1; */
-/*   transition: all 0.4s cubic-bezier(0.55, -0.68, 0.48, 1.682); */
-/* } */
-/**/
-/* #taskbar button.urgent, */
-/* #workspaces button.urgent { */
-/*   background-color: #eb4d4b; */
-/* } */

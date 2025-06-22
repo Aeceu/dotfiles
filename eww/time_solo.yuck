@@ -1,0 +1,16 @@
+(defwidget time-solo[]
+  (box :orientation "vertical"
+       :class "time-solo"
+       :spacing 5
+       :height 150
+       :width 1000
+    (label :text "${TIME}"
+           :class "time-label-solo"
+           :halign "center"
+           :valign "center")
+    (label :text "${DATE}"
+           :class "time-addon"
+           :halign "center"
+           :valign "center")
+  )
+)
