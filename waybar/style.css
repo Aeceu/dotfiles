@@ -67,7 +67,7 @@ window#waybar {
 /* Workspaces */
 #workspaces button {
   border-radius: 0;
-  font-size: 14px;
+  font-size: 12px;
   box-shadow: none;
   text-shadow: none;
   color: @milkPink;

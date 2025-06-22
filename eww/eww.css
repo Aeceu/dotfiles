@@ -5,8 +5,8 @@
 .media {
   padding: 20px;
   border-radius: 0px;
-  background-color: rgba(26, 27, 38, 0.9);
-  border: 2px solid rgba(51, 204, 255, 0.933);
+  background-color: rgba(26, 27, 38, 0.4);
+  border: 2px solid rgba(51, 204, 255, 0.4);
 }
 
 .cover {
@@ -60,4 +60,18 @@
   font-size: 17px;
   font-weight: 800;
   color: #9399b2;
+}
+
+.time {
+  padding: 20px;
+  border-radius: 0px;
+  background-color: rgba(30, 30, 46, 0.4);
+  border: 2px solid rgba(204, 153, 255, 0.4);
+}
+
+.time-label {
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 4em;
+  font-weight: bold;
+  color: #f5c2e7;
 }

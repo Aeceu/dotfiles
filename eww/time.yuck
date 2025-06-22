@@ -1,0 +1,14 @@
+(defpoll TIME :interval "1s" "date '+%I:%M %p'")
+
+(defwidget time[]
+  (box :orientation "vertical"
+       :class "time"
+       :spacing 10
+       :height 150
+       :width 300
+    (label :text "${TIME}"
+           :class "time-label"
+           :halign "center"
+           :valign "center")
+  )
+)
