@@ -16,6 +16,8 @@ swappy/
 mpv/
 gitui/
 dconf/
+spotify/
+neofetch/
 
 # Ignore cache or non-config folders
 session/

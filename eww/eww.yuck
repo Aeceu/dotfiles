@@ -1,0 +1,22 @@
+(include "./media_info.yuck")
+
+(defwidget container_1[]
+    (box :orientation "v"
+         :spacing 10
+         :space-evenly false
+      (box :orientation "h"
+           :spacing 10
+           :space-evenly false
+          (media)
+      )
+    )
+)
+
+(defwindow mywidgets
+    :monitor 0
+    :geometry (geometry :x "1%"
+                        :y "2%"
+                        :anchor "top left")
+    :stacking "bottom"
+    :focusable: none
+(container_1))

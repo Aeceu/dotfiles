@@ -14,9 +14,20 @@
     "pulseaudio",
     "custom/brightness",
     "custom/clipboard",
+    "custom/bluetooth",
     "custom/separator",
     "custom/power"
   ],
+
+  "custom/bluetooth": {
+    "exec": "~/.config/waybar/scripts/bluetooth_status.sh",
+    "return-type": "json",
+    "interval": 5,
+    "format": "{icon}",
+    "tooltip": true,
+    "tooltip-format": "{tooltip}",
+    "on-click": "blueman-manager"
+  },
 
   "hyprland/window": {
     "format": "\uf303 {0}",
